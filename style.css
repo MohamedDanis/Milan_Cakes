@@ -29,12 +29,19 @@ ul li:hover{
     text-decoration: none !important;
 }
 ul li a{
-    color:#F2B5D4;
+    color:#E87AB2;
     text-decoration: none;
 }
 ul li a:hover{
     text-decoration: none;
     color:#fff;
+}
+.anim img{
+    transition: all 1s;
+}
+.anim{
+    display: block;
+    overflow: hidden;
 }
 .toggle{
     width:100%;
@@ -107,6 +114,13 @@ footer img{
             position: relative;
             top:23px;
 
+  }
+  .left-section a{
+      text-decoration: none !important;
+      color:black;
+  }
+  .left-section a:hover{
+      color:#fff;
   }
   .right-section{
       width:100%;
